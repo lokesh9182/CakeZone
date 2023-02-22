@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+table {
+	font-size: 30px;
+	border: 3px solid darkblue;
+	margin-left: 10%;
+	width: 80%;
+	margin-left: 10%;
+}
+
+th {
+	background-color: green;
+	text-align: center;
+	padding: 8px;
+	border: 1px solid black;
+}
+
+td {
+	padding: 8px;
+	text-align: center;
+	border: 1px solid rgb(0, 64, 0);
+}
+
+tr:nth-child(even) {
+	background-color: lightgray;
+}
+
+.mybutton{
+	
+	font-size: 15px;
+	padding : 5px;
+	border:2px solid black;
+	z-index:0;
+}
+
+.mybutton:hover{
+	border-color:red;
+	
+}
+.btext{
+	color:white;
+	text-decoration:none;
+}
+
+
+
+
+
